@@ -13,7 +13,7 @@ import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class GeneratedTests extends TestBase {
+public class MedindexTests extends TestBase {
     @Test
     @Description("Test for Medindex")
     @DisplayName("Form for applicants is in the page")
