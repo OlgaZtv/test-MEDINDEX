@@ -1,0 +1,81 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "4a92a461930fcd62c5b93dd68b923718",
+    "name" : "guru.qa.tests.StudentRegTestComments",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "69bf535cac79f7ecc7aafaa34ee6618c",
+    "name" : "guru.qa.tests.StudentRegTestFaker",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "2485bcafd07ea2b35185a5d5af8e9012",
+    "name" : "guru.qa.tests.StudentRegTestPageO",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "2afdbe629921f503bd3eee09ddcc1f01",
+    "name" : "guru.qa.tests.StudentRegTestPageObjectHW",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "4e65b4ef6f52a361070ea449fe089f00",
+    "name" : "guru.qa.tests.StudentRegTestRandomUtils",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "d9583f1740318b76b27fa1cb0f277473",
+    "name" : "guru.qa.tests.StudentRegTestWithTestData",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c36e361c1eff304ed213deb4152ed95f",
+    "name" : "guru.qa.tests.TextBoxTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

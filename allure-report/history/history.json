@@ -1,0 +1,142 @@
+{
+  "91b2a84b1766c664d6396ed57053091a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7250cf06825b7eea",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=96.0.4664.45)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UIMEA30', ip: '192.168.1.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nselenide.remote: https://user1:1234@selenoid.autotests.cloud/wd/hub/\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://demoqa.com/text-box\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zatul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: 778e4982b7ee82ee2598dc3d18aef0ae",
+      "time" : {
+        "start" : 1638265436344,
+        "stop" : 1638265436708,
+        "duration" : 364
+      }
+    } ]
+  },
+  "a8256eee52cda704010071c175bed97" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e69859f17ae77b",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=96.0.4664.45)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UIMEA30', ip: '192.168.1.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://demoqa.com/automation-practice-form\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zatul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: 778e4982b7ee82ee2598dc3d18aef0ae",
+      "time" : {
+        "start" : 1638265426700,
+        "stop" : 1638265432194,
+        "duration" : 5494
+      }
+    } ]
+  },
+  "e6349374e01d0664196ca321aaa36e8a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a766290368796492",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=96.0.4664.45)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UIMEA30', ip: '192.168.1.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nselenide.remote: https://user1:1234@selenoid.autotests.cloud/wd/hub/\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://demoqa.com/automation-practice-form\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zatul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: 778e4982b7ee82ee2598dc3d18aef0ae",
+      "time" : {
+        "start" : 1638265433167,
+        "stop" : 1638265434278,
+        "duration" : 1111
+      }
+    } ]
+  },
+  "8e68ebaf88f2acea7815a5a50fadea1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d77d0c5dc014cbe7",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=96.0.4664.45)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UIMEA30', ip: '192.168.1.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nselenide.remote: https://user1:1234@selenoid.autotests.cloud/wd/hub/\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://demoqa.com/automation-practice-form\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zatul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: 778e4982b7ee82ee2598dc3d18aef0ae",
+      "time" : {
+        "start" : 1638265436033,
+        "stop" : 1638265436338,
+        "duration" : 305
+      }
+    } ]
+  },
+  "efc81bcf435ce95c428645646ac84341" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2335efcd3c129454",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=96.0.4664.45)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UIMEA30', ip: '192.168.1.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nselenide.remote: https://user1:1234@selenoid.autotests.cloud/wd/hub/\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://demoqa.com/automation-practice-form\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zatul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: 778e4982b7ee82ee2598dc3d18aef0ae",
+      "time" : {
+        "start" : 1638265435728,
+        "stop" : 1638265436021,
+        "duration" : 293
+      }
+    } ]
+  },
+  "8d3aa118376238215fce00180c350465" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "179d747a05143eda",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=96.0.4664.45)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UIMEA30', ip: '192.168.1.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nselenide.remote: https://user1:1234@selenoid.autotests.cloud/wd/hub/\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://demoqa.com/automation-practice-form\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zatul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: 778e4982b7ee82ee2598dc3d18aef0ae",
+      "time" : {
+        "start" : 1638265434287,
+        "stop" : 1638265435095,
+        "duration" : 808
+      }
+    } ]
+  },
+  "8de707279d7772c0d25632ffb9275481" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff66ba0d043cbbd1",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=96.0.4664.45)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-UIMEA30', ip: '192.168.1.154', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_312'\nselenide.remote: https://user1:1234@selenoid.autotests.cloud/wd/hub/\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://demoqa.com/automation-practice-form\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\zatul\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57296}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: 778e4982b7ee82ee2598dc3d18aef0ae",
+      "time" : {
+        "start" : 1638265435253,
+        "stop" : 1638265435721,
+        "duration" : 468
+      }
+    } ]
+  }
+}

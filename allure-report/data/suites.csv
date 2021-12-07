@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Nov 30 12:43:53 MSK 2021","Tue Nov 30 12:43:54 MSK 2021","1111","","guru.qa.tests.StudentRegTestFaker","","guru.qa.tests.StudentRegTestFaker","fillFormTest","fillFormTest()",""
+"broken","Tue Nov 30 12:43:56 MSK 2021","Tue Nov 30 12:43:56 MSK 2021","305","","guru.qa.tests.StudentRegTestWithTestData","","guru.qa.tests.StudentRegTestWithTestData","fillFormTest","fillFormTest()",""
+"broken","Tue Nov 30 12:43:55 MSK 2021","Tue Nov 30 12:43:56 MSK 2021","293","","guru.qa.tests.StudentRegTestRandomUtils","","guru.qa.tests.StudentRegTestRandomUtils","fillFormTest","fillFormTest()",""
+"broken","Tue Nov 30 12:43:56 MSK 2021","Tue Nov 30 12:43:56 MSK 2021","364","","guru.qa.tests.TextBoxTests","","guru.qa.tests.TextBoxTests","fillFormTest","fillFormTest()",""
+"broken","Tue Nov 30 12:43:55 MSK 2021","Tue Nov 30 12:43:55 MSK 2021","468","","guru.qa.tests.StudentRegTestPageObjectHW","","guru.qa.tests.StudentRegTestPageObjectHW","fillFormTest","fillFormTest()",""
+"broken","Tue Nov 30 12:43:46 MSK 2021","Tue Nov 30 12:43:52 MSK 2021","5494","","guru.qa.tests.StudentRegTestComments","","guru.qa.tests.StudentRegTestComments","fillFormTest","fillFormTest()",""
+"broken","Tue Nov 30 12:43:54 MSK 2021","Tue Nov 30 12:43:55 MSK 2021","808","","guru.qa.tests.StudentRegTestPageO","","guru.qa.tests.StudentRegTestPageO","fillFormTest","fillFormTest()",""
