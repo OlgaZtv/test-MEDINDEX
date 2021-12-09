@@ -47,7 +47,7 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 ```
 
 ### Видео о прохождении тестов
-<a href="https://ibb.co/mFHtjSP"><img src="https://i.ibb.co/bRrL07G/fefcc5cbac5d03c1.gif" alt="video test" border="0" /></a>
+<img src="https://i.ibb.co/93q2DGd/fefcc5cbac5d03c1.gif" alt="video test" border="0" />
 
 ### Запуск в Jenkins
 Статистика по запускам <br >
