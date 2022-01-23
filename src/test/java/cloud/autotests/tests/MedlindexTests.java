@@ -1,7 +1,6 @@
 package cloud.autotests.tests;
 
 import cloud.autotests.helpers.DriverUtils;
-import com.codeborne.selenide.Condition;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -13,7 +12,7 @@ import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class MedindexTests extends TestBase {
+public class MedlindexTests extends TestBase {
     @Test
     @Description("Test for Medindex")
     @DisplayName("Form for applicants is in the page")
