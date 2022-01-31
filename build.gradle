@@ -7,9 +7,9 @@ repositories {
     mavenCentral()
 }
 
-def allureVersion = "2.14.0",
+def allureVersion = "2.16.0",
     selenideVersion = "5.24.0",
-    junitVersion = "5.7.2"
+    junitVersion = "5.8.1"
 
 allure {
     version = allureVersion
@@ -22,6 +22,7 @@ allure {
 }
 
 dependencies {
+    implementation 'io.qameta.allure:allure-java-commons:2.16.1'
     testImplementation(
             "org.aspectj:aspectjweaver:1.9.6",
             "com.codeborne:selenide:$selenideVersion",
@@ -44,9 +45,11 @@ tasks.withType(JavaCompile) {
 
 tasks.withType(Test) {
     systemProperties(System.getProperties())
-    useJUnitPlatform()
+    useJUnitPlatform {
+        includeTags System.getProperty("tag", "all_tests")
+    }
 
-    /*if (System.getProperty("threads") != null) {
+    if (System.getProperty("threads") != null) {
         systemProperties += [
                 'junit.jupiter.execution.parallel.enabled'                 : true,
                 'junit.jupiter.execution.parallel.mode.default'            : 'concurrent',
@@ -54,7 +57,7 @@ tasks.withType(Test) {
                 'junit.jupiter.execution.parallel.config.strategy'         : 'fixed',
                 'junit.jupiter.execution.parallel.config.fixed.parallelism': System.getProperty("threads").toInteger()
         ]
-    }*/
+    }
 
     testLogging {
         lifecycle {
@@ -64,10 +67,3 @@ tasks.withType(Test) {
         }
     }
 }
-
-task demowebshop(type: Test) {
-    useJUnitPlatform {
-        includeTags 'demowebshop'
-    }
-}
-///change gradle version to 6.9.1

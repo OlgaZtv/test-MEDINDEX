@@ -1,8 +1,12 @@
 package cloud.autotests.tests;
 
+import annotations.Layer;
+import annotations.Microservice;
 import cloud.autotests.helpers.DriverUtils;
-import io.qameta.allure.Description;
+import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 
@@ -11,11 +15,19 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Layer("web")
+@Owner("zatulivetrova")
+@Story("MedIndex")
+@Feature("Main page common")
+@Tags({@Tag("all_tests"), @Tag("main_page")})
 
 public class MedlindexTests extends TestBase {
+    @Microservice("Main page")
     @Test
+    @AllureId("1734")
+    @DisplayName("Main page should have form for applicants")
+    @Feature("Form for applicants")
     @Description("Test for Medindex")
-    @DisplayName("Form for applicants is in the page")
     void formforapplicantsTest() {
         step("Open \"https://medindex.ru/\"", () ->
                 open("https://medindex.ru/"));
@@ -23,10 +35,12 @@ public class MedlindexTests extends TestBase {
         step("Should have form for applicants", () ->
              $(By.className("container")).shouldBe(visible));
     }
-
+    @Microservice("English main page")
     @Test
+    @AllureId("1734")
+    @DisplayName("Check the page is switches to English")
+    @Feature("Switch to English")
     @Description("Test for Medindex")
-    @DisplayName("Page is switches to English")
     void pageisswitchesTest() {
         step("Open \"https://medindex.ru/\"", () ->
                 open("https://medindex.ru/"));
@@ -42,9 +56,12 @@ public class MedlindexTests extends TestBase {
         });
     }
 
+    @Microservice("Main page")
     @Test
+    @AllureId("1734")
+    @DisplayName("Main page should have form vacancies")
+    @Feature("Vacancies form")
     @Description("Test for Medindex")
-    @DisplayName("Vacancies for applicants is in the page")
     void vacanciesforapplicantsTest() {
         step("Open \"https://medindex.ru/\"", () ->
                 open("https://medindex.ru/"));
@@ -53,9 +70,12 @@ public class MedlindexTests extends TestBase {
                 $(By.className("vacancy-accordion")).shouldBe(visible));
     }
 
+    @Microservice("Header")
     @Test
+    @AllureId("1734")
+    @DisplayName("Check headers text")
+    @Feature("Header")
     @Description("Page title Medindex should have header text")
-    @DisplayName("Page title Medindex should have header text")
     void titleTest() {
         step("Open url 'https://medindex.ru/'", () ->
             open("https://medindex.ru/"));
@@ -68,9 +88,12 @@ public class MedlindexTests extends TestBase {
         });
     }
 
+    @Microservice("Main page errors")
     @Test
-    @Description("Page console log should not have errors")
+    @AllureId("1734")
     @DisplayName("Page console log should not have errors")
+    @Feature("Console log")
+    @Description("Page console log should not have errors")
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://medindex.ru/'", () ->
             open("https://medindex.ru/"));
