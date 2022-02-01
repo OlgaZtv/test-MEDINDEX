@@ -24,7 +24,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class MedlindexTests extends TestBase {
     @Microservice("Main page")
     @Test
-    @AllureId("1734")
+    @AllureId("7005")
     @DisplayName("Main page should have form for applicants")
     @Feature("Form for applicants")
     @Description("Test for Medindex")
@@ -33,11 +33,12 @@ public class MedlindexTests extends TestBase {
                 open("https://medindex.ru/"));
 
         step("Should have form for applicants", () ->
-             $(By.className("container")).shouldBe(visible));
+                $(By.className("container")).shouldBe(visible));
     }
+
     @Microservice("English main page")
     @Test
-    @AllureId("1734")
+    @AllureId("7017")
     @DisplayName("Check the page is switches to English")
     @Feature("Switch to English")
     @Description("Test for Medindex")
@@ -58,7 +59,7 @@ public class MedlindexTests extends TestBase {
 
     @Microservice("Main page")
     @Test
-    @AllureId("1734")
+    @AllureId("7018")
     @DisplayName("Main page should have form vacancies")
     @Feature("Vacancies form")
     @Description("Test for Medindex")
@@ -72,13 +73,13 @@ public class MedlindexTests extends TestBase {
 
     @Microservice("Header")
     @Test
-    @AllureId("1734")
+    @AllureId("7019")
     @DisplayName("Check headers text")
     @Feature("Header")
     @Description("Page title Medindex should have header text")
     void titleTest() {
         step("Open url 'https://medindex.ru/'", () ->
-            open("https://medindex.ru/"));
+                open("https://medindex.ru/"));
 
         step("Page title should have text 'Мединдекс: ИТ решения для медицины'", () -> {
             String expectedTitle = "Мединдекс: ИТ решения для медицины";
@@ -90,13 +91,13 @@ public class MedlindexTests extends TestBase {
 
     @Microservice("Main page errors")
     @Test
-    @AllureId("1734")
+    @AllureId("7020")
     @DisplayName("Page console log should not have errors")
     @Feature("Console log")
     @Description("Page console log should not have errors")
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://medindex.ru/'", () ->
-            open("https://medindex.ru/"));
+                open("https://medindex.ru/"));
 
         step("Console logs should not contain text 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
