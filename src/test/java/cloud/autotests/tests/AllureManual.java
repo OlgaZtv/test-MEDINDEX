@@ -6,10 +6,12 @@ import io.qameta.allure.AllureId;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
+@Tags({@Tag("all_tests"), @Tag("main_page")})
 public class AllureManual {
 
     @Test
