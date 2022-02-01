@@ -1,5 +1,7 @@
 package cloud.autotests.tests;
 
+import annotations.JiraIssue;
+import annotations.JiraIssues;
 import annotations.Layer;
 import annotations.Microservice;
 import cloud.autotests.helpers.DriverUtils;
@@ -28,6 +30,7 @@ public class MedlindexTests extends TestBase {
     @DisplayName("Main page should have form for applicants")
     @Feature("Form for applicants")
     @Description("Test for Medindex")
+    @JiraIssues({@JiraIssue("HOMEWORK-278")})
     void formforapplicantsTest() {
         step("Open \"https://medindex.ru/\"", () ->
                 open("https://medindex.ru/"));
@@ -42,6 +45,7 @@ public class MedlindexTests extends TestBase {
     @DisplayName("Check the page is switches to English")
     @Feature("Switch to English")
     @Description("Test for Medindex")
+    @JiraIssues({@JiraIssue("HOMEWORK-278")})
     void pageisswitchesTest() {
         step("Open \"https://medindex.ru/\"", () ->
                 open("https://medindex.ru/"));
@@ -63,6 +67,7 @@ public class MedlindexTests extends TestBase {
     @DisplayName("Main page should have form vacancies")
     @Feature("Vacancies form")
     @Description("Test for Medindex")
+    @JiraIssues({@JiraIssue("HOMEWORK-278")})
     void vacanciesforapplicantsTest() {
         step("Open \"https://medindex.ru/\"", () ->
                 open("https://medindex.ru/"));
@@ -77,6 +82,7 @@ public class MedlindexTests extends TestBase {
     @DisplayName("Check headers text")
     @Feature("Header")
     @Description("Page title Medindex should have header text")
+    @JiraIssues({@JiraIssue("HOMEWORK-278")})
     void titleTest() {
         step("Open url 'https://medindex.ru/'", () ->
                 open("https://medindex.ru/"));
@@ -95,6 +101,7 @@ public class MedlindexTests extends TestBase {
     @DisplayName("Page console log should not have errors")
     @Feature("Console log")
     @Description("Page console log should not have errors")
+    @JiraIssues({@JiraIssue("HOMEWORK-278")})
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://medindex.ru/'", () ->
                 open("https://medindex.ru/"));
